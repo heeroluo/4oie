@@ -6,7 +6,11 @@ module.exports = Object.assign({
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/index.ejs',
-			inject: false
+			inject: false,
+			minify: {
+				collapseWhitespace: true,
+				minifyCSS: true
+			}
 		})
 	]
 }, config);
