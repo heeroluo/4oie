@@ -1,0 +1,36 @@
+{
+  "name": "4oie",
+  "version": "0.1.0",
+  "description": "Universal guide page for upgrading older versions of Internet Explorer",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js",
+    "watch": "webpack --watch --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heeroluo/4oie.git"
+  },
+  "keywords": [
+    "upgrade",
+    "ie"
+  ],
+  "author": {
+    "name": "Heero.Luo",
+    "email": "heeroluo@126.com",
+    "url": "http://heeroluo.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heeroluo/4oie/issues"
+  },
+  "homepage": "https://github.com/heeroluo/4oie#readme",
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
