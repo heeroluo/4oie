@@ -4,7 +4,7 @@
   "description": "Universal guide page for upgrading older versions of Internet Explorer",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --open --config webpack.dev.config.js",
     "build": "webpack --config webpack.prod.config.js",
     "watch": "webpack --watch --config webpack.dev.config.js"
   },
@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/heeroluo/4oie#readme",
   "devDependencies": {
-    "file-loader": "^2.0.0",
+    "file-loader": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
