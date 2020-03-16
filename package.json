@@ -17,9 +17,9 @@
     "ie"
   ],
   "author": {
-    "name": "Heero.Luo",
+    "name": "Mr.Luo",
     "email": "heeroluo@126.com",
-    "url": "http://heeroluo.net/"
+    "url": "https://mrluo.life/"
   },
   "license": "MIT",
   "bugs": {
@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/heeroluo/4oie#readme",
   "devDependencies": {
-    "file-loader": "^4.0.0",
+    "file-loader": "^4.3.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
