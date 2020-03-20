@@ -17,6 +17,7 @@ module.exports = Object.assign({
 	devServer: {
 		compress: true,
 		overlay: true,
+		host: '0.0.0.0',
 		port: 4560
 	}
 }, config);
