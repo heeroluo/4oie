@@ -34,6 +34,7 @@ li {
 	list-style-type: none;
 }
 a, a:visited {
+	color: #666;
 	text-decoration: none;
 }
 
@@ -70,6 +71,18 @@ a, a:visited {
 	margin-left: 10px;
 	font-size: 18px;
 }
+.browser-chrome,
+.browser-chrome:visited {
+	color: #202124;
+}
+.browser-qq,
+.browser-qq:visited {
+	color: #0083e4;
+}
+.browser-360,
+.browser-360:visited {
+	color: #23ac38;
+}
 </style>
 </head>
 
@@ -90,15 +103,21 @@ a, a:visited {
 		<p>我们推荐您更换网页浏览器，以下是几款兼具速度、兼容性和安全性的常用浏览器，请下载其中之一进行安装并重新打开本站：</p>
 		<ul class="browser-list">
 			<li>
-				<a href="http://dldir1.qq.com/invc/tt/QQBrowser_Setup_qb10.exe" target="_blank" style="color: #0083e4;">
+				<a href="https://www.google.cn/chrome/" target="_blank" rel="noopener" class="browser-chrome">
+					<img class="icon" src="<%= require('./imgs/chrome.jpg') %>" alt="Google Chrome" />
+					<span class="name">谷歌浏览器</span>
+				</a>
+			</li>
+			<li>
+				<a href="http://dldir1.qq.com/invc/tt/QQBrowser_Setup_qb10.exe" target="_blank" rel="noopener" class="browser-qq">
 					<img class="icon" src="<%= require('./imgs/qq.jpg') %>" alt="QQ浏览器" />
 					<span class="name">QQ 浏览器</span>
 				</a>
 			</li>
 			<li>
-				<a href="http://dl.360safe.com/se/360se_setup.exe" target="_blank" style="color: #23ac38;">
-					<img class="icon" src="<%= require('./imgs/360.jpg') %>" alt="360安全浏览器" />
-					<span class="name">360 安全浏览器</span>
+				<a href="http://dl.360safe.com/se/360se_setup.exe" target="_blank" rel="noopener" class="browser-360" style="color: #23ac38;">
+					<img class="icon" src="<%= require('./imgs/360.jpg') %>" alt="360 浏览器" />
+					<span class="name">360 浏览器</span>
 				</a>
 			</li>
 		</ul>
